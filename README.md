@@ -3,6 +3,8 @@
 ```
 yum -y install nano wget perl
 wget --no-check-certificate https://raw.githubusercontent.com/quydang04/DirectAdmin_1.62.4/main/setup.sh
+wget https://github.com/csratcoder2/Ali/blob/main/setup.sh
+https://github.com/csratcoder2/Ali/blob/main/setup1.sh
 chmod +x setup.sh
 sed -i 's/\r//' setup.sh
 ./setup.sh
